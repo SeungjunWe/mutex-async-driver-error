@@ -1,0 +1,17 @@
+{
+  "name": "mutex-async-driver-error",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start:server": "node ./dist/server/main.js",
+    "start:client": "node ./dist/client/main.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "mutex-server": "^0.3.1"
+  }
+}

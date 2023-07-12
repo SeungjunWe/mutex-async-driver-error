@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "outDir": "./dist",
+      "module": "CommonJS",
+      "target": "ESNext",
+      "declaration": true,
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+    },
+    "include": [
+      "src",
+      "env.d.ts"
+    ],
+  }
